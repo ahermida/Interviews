@@ -30,5 +30,5 @@ for (int i=0; i<word.length(); i++) {
   if (s.size() != word.length())
     isUnique2 = false;
 
-  std::cout << << std::boolalpha << isUnique2 << "\n";
+  std::cout << std::boolalpha << isUnique2 << "\n";
 }
