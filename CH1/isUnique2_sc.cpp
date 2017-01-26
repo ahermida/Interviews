@@ -1,7 +1,5 @@
 /*
-isUnique2.cpp
-
-1/22/17
+Sam Cacela		isUnique2_sc.cpp		1/22/17
 
 insert characters of word into set
 check whether length of set is same
@@ -19,7 +17,7 @@ int main ()
 
  std::set<char> s;
  
-  std::cout << "Please, enter a word: ";
+  std::cout << "Enter a word: ";
   std::getline (std::cin,word);
   
 
@@ -32,5 +30,5 @@ for (int i=0; i<word.length(); i++) {
   if (s.size() != word.length())
     isUnique2 = false;
 
-  std::cout << isUnique2 << "\n";
+  std::cout << << std::boolalpha << isUnique2 << "\n";
 }

@@ -1,7 +1,5 @@
 /*
-isUnique.cpp
-
-1/22/17
+Sam Cacela      isUnique_sc.cpp      1/22/17
 
 sort characters of word, then interate through
 characters and check whether character i is same
@@ -16,7 +14,7 @@ as next character i+1
 int main () {
   std::string word;
 
-  std::cout << "Please, enter a word: ";
+  std::cout << "Enter a word: ";
   std::getline (std::cin,word);
 
   std::sort(word.begin(), word.end());
@@ -28,5 +26,5 @@ int main () {
         isUnique = false;
     }
 
-    std::cout << isUnique << "\n";
+    std::cout << std::boolalpha << isUnique << "\n";
 }
