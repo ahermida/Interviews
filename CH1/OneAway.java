@@ -1,4 +1,6 @@
 public class OneAway {
+
+    //IS WRONG -- doesn't consider order -- mlp and plme would be one edit away
     public static void main(String[] args) {
         System.out.println(isOneAway("plm", "pldm"));
         System.out.println(isOneAway("sla", "RAMEN"));
