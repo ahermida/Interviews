@@ -6,7 +6,8 @@ public class KFromEnd {
         Node n4 = new Node(6);
         Node n5 = new Node(7);
         Node n6 = new Node(8);
-        n1.next = n2;
+        n1.next = n2; + 3;
+        int i = 3.9;
         n2.next = n3;
         n3.next = n4;
         n4.next = n5;
